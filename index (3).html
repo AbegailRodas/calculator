@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        .calculator {
+            width: 455px;
+            margin: 0 auto;
+            background: linear-gradient(to right, grey , burlywood );
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px ;stroke: aquamarine;
+            padding: 20px;
+        }
+
+        input[type="text"] {
+            width: 98%;
+            height: 90px;
+            font-size: 50px;
+            text-align: right;
+            margin-bottom: 10px;
+        }
+
+        .num {
+            width: 100px;
+            height: 100px;
+            font-size: 30px;
+            margin: 5px;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px grey;
+            border-radius: 20px;
+            color: burlywood;
+            background-color: lightslategray;
+           
+        }
+
+        .btn:hover {
+            background-color: dimgray;
+        }
+
+        #result {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="calculator" >
+  <input class="value" type="text" name="txt" readonly="">
+  <div>
+  <button class="num" onclick= >9</button>
+  <button class="num" onclick= >8</button>
+  <button class="num" onclick= >7</button>
+  <button class="num" onclick= >-</button>
+  </div>
+
+  <div>
+  <button class="num" onclick= >6</button>
+  <button class="num" onclick= >5</button>
+  <button class="num" onclick= >4</button>
+  <button class="num" onclick= >+</button>
+ </div>
+
+ <div>
+  <button class="num" onclick= >3</button>
+  <button class="num" onclick= >2</button>
+  <button class="num" onclick= >1</button>
+  <button class="num" onclick= >/</button>
+ </div>
+
+ <div>
+  <button class="num" onclick= >C</button>
+  <button class="num" onclick= >0</button>
+  <button class="num" onclick= >*</button>
+  <button class="num" onclick= >=</button>
+ </div>
+</div>
+</body>
+</html>
